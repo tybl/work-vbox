@@ -11,7 +11,7 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 update -y
-dnf5 install -y alacritty cmake dmenu gcc-c++ git git-lfs i3 i3-config-fedora i3status lightdm neovim tmux
+dnf5 install -y alacritty cmake dmenu gcc-c++ git git-lfs i3 i3-config-fedora i3status lightdm neovim tmux virtualbox-guest-additions
 dnf5 clean all
 
 # Use a COPR Example:
